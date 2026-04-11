@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; }
+    form { width: 300px; margin: auto; padding: 20px; background: white; border-radius: 10px; }
+    input, button { width: 100%; padding: 10px; margin: 5px 0; }
+    button { background: blue; color: white; }
+  </style>
+</head>
+<body>
+  <form action="/submit" method="POST">
+    <h2>Register</h2>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="course" placeholder="Course" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
